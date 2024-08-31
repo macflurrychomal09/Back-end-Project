@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Find Your Perfect Skincare Products</h1>
+    </header>
+    <main>
+        <form id="quizForm" action="index.html" method="GET">
+    
+            <fieldset>
+                <legend>7.How does your skin typically react to sun exposure?</legend>
+                <label><input type="radio" name="skinType" value="Oily"> Burns easily and rarely tans</label>
+                <label><input type="radio" name="skinType" value="Dry"> Burns sometimes, tans gradually</label>
+                <label><input type="radio" name="skinType" value="Dry"> Tans easily and rarely burns</label>
+                <label><input type="radio" name="skinType" value="Dry"> Tans quickly and never burns</label>
+                <label><input type="radio" name="skinType" value="Dry"> Becomes irritated or develops a rash</label>
+            </fieldset>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </main>
+</body>
+</html>

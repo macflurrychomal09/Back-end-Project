@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Find Your Perfect Skincare Products</h1>
+    </header>
+    <main>
+        <form id="quizForm" action="Form2.html" method="GET">
+            <fieldset>
+                <legend>1. How would you describe your skin type?</legend>
+                <label><input type="radio" name="skinType" value="Oily"> Oily</label>
+                <label><input type="radio" name="skinType" value="Dry"> Dry</label>
+                <label><input type="radio" name="skinType" value="Combination"> Combination</label>
+                <label><input type="radio" name="skinType" value="Normal"> Normal</label>
+                <label><input type="radio" name="skinType" value="Sensitive"> Sensitive</label>
+            </fieldset>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </main>
+</body>
+</html>
